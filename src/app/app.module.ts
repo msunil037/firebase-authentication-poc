@@ -7,21 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxAuthFirebaseUIModule } from 'ngx-auth-firebaseui';
 import { environment } from '../environments/environment'
 import { MaterialModule } from './material.module';
-import { NgxAuthFirebaseUIComponent } from './ngx-auth-firebase-ui/ngx-auth-firebase-ui.component';
-import { FirebaseAuthComponent } from './firebase-auth/firebase-auth.component';
-import { SharedModule } from './shared/shared.module';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    NgxAuthFirebaseUIComponent,
-    FirebaseAuthComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    SharedModule,
+    FormsModule,
     NgxAuthFirebaseUIModule.forRoot(environment.firebase),
   ],
   providers: [],
