@@ -1,5 +1,5 @@
 # FirebaseAuthenticationPoc
-[Click here to see demo]()
+[Click here to see demo](https://fir-poc-aa4f7.web.app/)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
 ## Development server
